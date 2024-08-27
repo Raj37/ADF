@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "pipeline_copy_from_gen2source_to_gen2sink",
 	"properties": {
 		"activities": [
 			{
