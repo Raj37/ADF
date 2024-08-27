@@ -4,6 +4,12 @@
 	"parameters": {
 		"factoryName": {
 			"value": "adf-geekcoders-project"
+		},
+		"AzureKeyVault_ls_keyvault_properties_typeProperties_baseUrl": {
+			"value": "https://adf-keyvault-dev.vault.azure.net"
+		},
+		"AzureDataLakeStorage_ls_source_properties_typeProperties_url": {
+			"value": "https://sinksageekcodersproject.dfs.core.windows.net"
 		}
 	}
 }
