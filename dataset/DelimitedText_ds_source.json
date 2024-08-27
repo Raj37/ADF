@@ -1,0 +1,23 @@
+{
+	"name": "DelimitedText_ds_source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage_ls_source",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "emp.csv.txt",
+				"fileSystem": "source"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
