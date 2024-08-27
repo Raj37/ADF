@@ -1,0 +1,23 @@
+{
+	"name": "AzureDataLakeStorage_ls_sink",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"sasUri": "https://sinksageekcoderproject.dfs.core.windows.net",
+			"sasToken": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault_ls_keyvault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "sinksa-secret-sastoken"
+			}
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
