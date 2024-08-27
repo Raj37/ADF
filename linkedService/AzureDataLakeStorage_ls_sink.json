@@ -12,7 +12,7 @@
 					"referenceName": "AzureKeyVault_ls_keyvault",
 					"type": "LinkedServiceReference"
 				},
-				"secretName": "sinksa-secret-sastoken"
+				"secretName": "sinksa-secret-sass"
 			}
 		},
 		"connectVia": {
