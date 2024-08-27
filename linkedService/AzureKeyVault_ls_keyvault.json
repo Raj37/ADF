@@ -1,0 +1,10 @@
+{
+	"name": "AzureKeyVault_ls_keyvault",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://adf-keyvault-dev.vault.azure.net/"
+		}
+	}
+}
